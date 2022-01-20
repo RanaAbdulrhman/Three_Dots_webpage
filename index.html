@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Matebook Landing Page</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="laptop-ui-master/img/logo.svg" alt="logo">
+            <h4 class="logo">Three dots</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#specs">Specs</a></li>
+                <li><a class="nav-link" href="#">Products</a></li>
+                <li><a class="nav-link" href="#contact-us">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <img src="laptop-ui-master/img/cart.svg" alt="cart">
+        </div>  
+    </header>
+    <main>
+        <video autoplay muted loop id="myVideo">
+            <source src="resources/Saudi_Flag.mp4" type="video/mp4">
+        </video>
+        <section class="main-section">
+            <div class="left-section">
+                <div class="text-section">
+                    <h1>Laptop for the future</h1>
+                    <p>The new 14 inch amazing display oferring a 4k display with touch screen.</p>
+                </div>
+                <div class="buttons"> 
+                    <button class="size-button">14 inch</button>
+                    <button class="add-to-cart-button">Add to cart</button>
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="laptop-ui-master/img/matebook.png" alt="matebook">
+            </div>
+        </section>
+        <!-- <div class="laptop-select">
+            <img src="./laptop-ui-master/img/arrow-left.svg">
+            <img src="./laptop-ui-master/img/dot.svg">
+            <img src="./laptop-ui-master/img/dot-full.svg">
+            <img src="./laptop-ui-master/img/dot-full.svg">
+            <img src="./laptop-ui-master/img/arrow-right.svg">
+        </div> -->
+        <img class="big-circle" src="./laptop-ui-master/img/big-eclipse.svg" alt="">
+        <img class="mid-circle" src="./laptop-ui-master/img/mid-eclipse.svg" alt="">        
+        <div id="specs" class="specs">
+            <table class="specs-table">
+                <tr>
+                    <th>Brand</th>
+                    <td>Huawei</td>
+                </tr>
+                <tr>
+                    <th>Model</th>
+                    <td>MateBook D 15</td>
+                </tr>
+                <tr>
+                    <th>Series</th>
+                    <td>MateBook D</td>
+                </tr>
+                <tr>
+                    <th>Dimensions (mm)</th>
+                    <td>229.90 x 357.80 x 16.90</td>
+                </tr>
+                <tr>
+                    <th>Weight (kg)</th>
+                    <td>1.62</td>
+                </tr>
+                <tr>
+                    <th>Operating system</th>
+                    <td>Windows 10</td>
+                </tr>
+            </table>
+        </div>
+        <div id="contact-us" class="contact-us">
+            <div class="text">
+                <h3>Contact Us</h3>
+                <p>
+                    Our mailing adress is: <br>
+                    Riyadh, 30th street <br>
+                    Phone: 705-864-3228 <br>
+                </p>
+                <section class="contact-platforms">
+                    <ul>
+                        <li><a href=""><img src="./media-logo/facebook-icon-1.svg"></a></li>
+                        <li><a href=""><img src="./media-logo/instagram_logo_icon_173070.png"></a></li>
+                        <li><a href=""><img src="./media-logo/png-clipart-computer-icons-encapsulated-postscript-symbol-miscellaneous-cat-like-mammal-thumbnail.png"></a></li>
+                        <li><a href=""><img src="./media-logo/png-clipart-social-media-computer-icons-logo-google-google-plus-logo-social-media.png"></a></li>
+                    </ul>
+                </section> 
+            </div> 
+            <div>
+                <label for="name">Great vision without great people is irrelevant <br>
+                    Let's work together.
+                </label>
+                <div class="form-side">
+                    <form action="" class="contact-form">
+                        <input class="name" name="name" type="text" placeholder="Enter your name">
+                        <input class="email" name="email" type="text" placeholder="Enter a valid email address">
+                        <textarea name="message" type="text" placeholder="Enter your message"></textarea>
+                        <input class="submit-button" type="submit">
+                    </form>
+                </div>  
+            </div>    
+        </div>
+    </main>
+</body>
+</html>
